@@ -1,0 +1,47 @@
+<Login>:
+    StackLayout:
+        orientation: 'lr-tb'
+        size_hint: (1,.15)
+
+        canvas.before:
+            Color:
+                rgba: (0.2,.5,.7,1)
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        
+        Label:
+            text: 'Login System'
+            font_size: 38
+    
+
+    StackLayout:
+        orientation: 'lr-tb'
+        size_hint: (1,.85)
+        padding: (100,5,100,5)
+        spacing: 10
+
+        Label:
+            text: 'Username'
+            size_hint: (.2,.08)
+            font_size: 24
+
+        TextInput:
+            size_hint: (0.8,.08)
+            font_size: 20
+
+        Label:
+            text: 'Password'
+            size_hint: (.2,.08)
+            font_size: 24
+            valign: 'center'
+
+        TextInput:
+            size_hint: (0.8,.08)
+            font_size: 20
+            valign: 'center'
+
+        Button:
+            text: 'Submit'
+            size_hint: 1, .08
+            halign: 'center'
