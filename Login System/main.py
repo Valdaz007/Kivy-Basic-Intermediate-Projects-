@@ -36,6 +36,7 @@ class Login(StackLayout):
         self._body.add_widget(self._bodyTxtIn_Uname)
         self._body.add_widget(self._bodyLblUpwd)
         self._body.add_widget(self._bodyTxtIn_Upwd)
+        self._body.add_widget(self._bodyBtnSubmit)
         
         
         # Footer
