@@ -30,6 +30,7 @@ class Login(StackLayout):
         self._bodyTxtIn_Uname = TextInput(size_hint=(1, .15))
         self._bodyLblUpwd = Label(text='Passwird', font_size=14, size_hint=(1, .15))
         self._bodyTxtIn_Upwd = TextInput(size_hint=(1, .15))
+        self._bodyBtnSubmit = Button(text='Submit', font_size=14, size_hint=(1, .15))
         
         self._body.add_widget(self._bodyLblUname)
         self._body.add_widget(self._bodyTxtIn_Uname)
