@@ -1,5 +1,6 @@
 from kivy.app import App
 from kivy.uix.stacklayout import StackLayout
+from kivy.core.window import Window
 
 class Login(StackLayout):
     def __init__(self, **kwargs):
